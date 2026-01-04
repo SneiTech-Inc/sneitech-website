@@ -11,28 +11,28 @@ const testimonials = [
     role: "Founder & CEO, SneiTech Inc.",
     content:
       "Turning ideas into technology that matters. We focus on creating digital solutions that combine creativity, precision, and impact for global growth.",
-    avatar: "/diverse-ceo-group.png",
+    avatar: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1622000412/samples/people/boy-snow-hoodie.jpg",
   },
   {
     name: "Sarah Chen",
     role: "Chief Innovation Officer, Nexus Systems",
     content:
       "Snei Tech INC transformed our legacy systems into a modern, scalable architecture that has significantly improved our efficiency and speed-to-market.",
-    avatar: "/abstract-geometric-sculpture.png",
+    avatar: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1622000412/samples/people/boy-snow-hoodie.jpg",
   },
   {
     name: "David Miller",
     role: "SaaS Founder, Prime Solutions",
     content:
       "The precision and attention to detail in their custom software development process is unmatched. They are a true innovation partner from start to finish.",
-    avatar: "/abstract-geometric-shapes.png",
+    avatar: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1622000412/samples/people/boy-snow-hoodie.jpg",
   },
   {
     name: "Elena Rodriguez",
     role: "Director of Technology, Aura Digital",
     content:
       "Working with Snei Tech INC felt like having an internal R&D team. Their ability to translate complex business needs into elegant code is exceptional.",
-    avatar: "/diverse-ceo-group.png",
+    avatar: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1622000412/samples/people/boy-snow-hoodie.jpg",
   },
 ]
 

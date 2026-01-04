@@ -142,7 +142,7 @@ export default function AboutPage() {
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full overflow-hidden bg-muted lg:hidden">
-                    <img src="/diverse-ceo-group.png" alt="Michael Schneider" className="w-full h-full object-cover" />
+                    <img src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1695176761/ylzocnxdjycytzjtnu9f.jpg" alt="Michael Schneider" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <p className="font-bold text-foreground">Michael Schneider</p>
@@ -166,7 +166,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 noise-overlay opacity-10 z-[5]" />
 
               <img
-                src="/diverse-ceo-group.png"
+                src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1695176761/ylzocnxdjycytzjtnu9f.jpg"
                 alt="Michael Schneider - Founder & CEO"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
