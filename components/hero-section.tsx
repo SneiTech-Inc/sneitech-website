@@ -23,7 +23,7 @@ export function HeroSection() {
       <motion.div style={{ y }} className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/85 to-background z-10" />
         <img
-          src="/placeholder.svg?key=mjsww"
+          src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1767567640/futuristic-technology-circuit-board-pattern_naz8wn.jpg?key=mjsww"
           alt="Tech background"
           className="w-full h-full object-cover"
         />

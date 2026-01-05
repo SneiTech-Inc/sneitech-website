@@ -120,7 +120,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background/95 z-10" />
           <img
-            src="/placeholder.svg?key=rm2mh"
+            src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1767567647/abstract-digital-network-connection-technology_ivrj8o.jpg?key=rm2mh"
             alt="Network background"
             className="w-full h-full object-cover"
           />

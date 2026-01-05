@@ -34,7 +34,7 @@ export default function AboutPage() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/80 to-background z-10" />
-          <img src="/placeholder.svg?key=h09z6" alt="About background" className="w-full h-full object-cover" />
+          <img src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1765889037/iStock-665394574_ftln0h.jpg" alt="About background" className="w-full h-full object-cover" />
         </div>
 
         <div className="container relative z-10 mx-auto px-4 text-center">
