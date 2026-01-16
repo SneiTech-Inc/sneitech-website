@@ -50,7 +50,7 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-balance leading-tight"
           >
-            About <span className="text-primary">Snei Tech INC</span>
+            About <span className="text-primary">SneiTech</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

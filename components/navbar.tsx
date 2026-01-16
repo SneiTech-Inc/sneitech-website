@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -40,11 +41,19 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <nav className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
-              <span className="text-primary-foreground font-bold text-xl">S</span>
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
+              <span className="text-primary-foreground font-bold text-xl">
+                <Image
+                  src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1757561643/sneitechLogo_z3zgvx.png"
+                  alt="SneiTech Logo Icon"
+                  width={40}
+                  height={40}
+                  className="w-10 h-10"
+                />
+              </span>
             </div>
             <span className="font-bold text-xl tracking-tight text-foreground">
-              SNEI TECH <span className="text-primary">INC</span>
+              SNEI<span className="text-primary">TECH</span>
             </span>
           </Link>
 

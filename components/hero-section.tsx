@@ -88,7 +88,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-4 text-balance leading-relaxed"
         >
-          Snei Tech INC is a product-driven innovation hub that builds scalable software products and provides
+          SneiTech is a product-driven innovation hub that builds scalable software products and provides
           enterprise-grade solutions. We transform ambitious ideas into market-ready technology that drives real business impact.
         </motion.p>
 

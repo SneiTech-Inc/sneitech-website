@@ -33,7 +33,8 @@ export function Footer() {
                 <span className="text-primary-foreground font-bold text-xl">S</span>
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground">
-                SNEI TECH <span className="text-primary">INC</span>
+                SNEITECH 
+                {/* <span className="text-primary">INC</span> */}
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs leading-relaxed">
@@ -86,11 +87,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-sm text-muted-foreground">
                 <MapPin size={18} className="text-primary shrink-0 mt-0.5" />
-                <span>Tech Plaza, innovation Drive, Silicon Valley, CA</span>
+                <span>Remote · Serving clients worldwide</span>
               </li>
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Phone size={18} className="text-primary shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+233 (50) 077-0227</span>
               </li>
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Mail size={18} className="text-primary shrink-0" />
@@ -101,7 +102,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Snei Tech INC. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SneiTech Inc. All rights reserved.</p>
           <div className="flex space-x-6">
             {footerLinks.legal.map((link) => (
               <Link key={link.name} href={link.href} className="hover:text-primary transition-colors">

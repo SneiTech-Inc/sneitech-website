@@ -43,7 +43,7 @@ export default function Home() {
                 Turning ideas into technology that matters.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Snei Tech INC was founded with a clear vision — to transform ambitious ideas into impactful digital
+                SneiTech was founded with a clear vision — to transform ambitious ideas into impactful digital
                 products. We are more than a software company; we are a mother company that births multiple innovative
                 products and empowers businesses worldwide.
               </p>
