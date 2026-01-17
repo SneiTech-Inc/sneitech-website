@@ -66,7 +66,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
                 <p className="text-muted-foreground text-lg mb-8">
-                  At Snei Tech Inc., we empower businesses with innovative technology solutions. Reach out to discuss
+                  At SneiTech., we empower businesses with innovative technology solutions. Reach out to discuss
                   how we can bring your ideas to life.
                 </p>
               </div>
@@ -196,7 +196,7 @@ export default function ContactPage() {
                       <Button
                         type="submit"
                         className="w-full h-12 rounded-xl text-lg font-bold shadow-lg shadow-primary/20"
-                        disabled={formStatus === "submitting"}
+                        disabled
                       >
                         {formStatus === "submitting" ? (
                           "Sending..."

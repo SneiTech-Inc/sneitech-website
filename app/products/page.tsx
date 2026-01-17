@@ -11,33 +11,50 @@ const products = [
     name: "XSporta",
     tagline: "The Future of Sports Management",
     description:
-      "Our flagship platform designed to revolutionize how sports organizations manage their operations, athletes, and fan engagement.",
-    features: ["Real-time Analytics", "Athlete Performance Tracking", "Automated Scheduling", "Fan Interaction Hub"],
+      "XSporta is our flagship sports technology platform, currently under active development, designed to power the next generation of sports organizations.It brings together intelligent analytics, real-time operations, and secure data management into a single, scalable ecosystem.",
+    features: [
+      "Advanced performance & match analytics", 
+      "Centralized athlete & team management", 
+      "Real-time fixtures, results, and operations", 
+      "Secure, scalable data infrastructure"
+    ],
     tech: ["Web", "Mobile", "SaaS"],
     status: "Flagship",
     color: "from-blue-600 to-cyan-500",
   },
   {
-    id: "techguard",
-    name: "TechGuard",
-    tagline: "Enterprise Security Reimagined",
+    id: "church-management",
+    name: "Church Management System",
+    tagline: "Modern Ministry Operations Platform",
     description:
-      "An advanced cybersecurity suite providing real-time threat detection and automated response systems for modern digital infrastructures.",
-    features: ["AI Threat Detection", "Automated Patching", "Vulnerability Scanning", "Zero Trust Architecture"],
-    tech: ["Cloud", "Security", "AI"],
+      "A comprehensive digital platform designed to help churches manage members, departments, events, finances, and communication efficiently.",
+    features: [
+      "Member & Family Management",
+      "Attendance Tracking",
+      "Donations & Finance Management",
+      "Events & Programs",
+      "Messaging & Announcements",
+    ],
+    tech: ["Web", "Mobile", "SaaS"],
     status: "Coming Soon",
-    color: "from-purple-600 to-pink-500",
+    color: "from-emerald-600 to-teal-500",
   },
   {
-    id: "nexus-flow",
-    name: "Nexus Flow",
-    tagline: "Seamless API Integration Hub",
+    id: "inventory-management",
+    name: "Inventory Management System",
+    tagline: "Scalable Stock & Inventory Operations",
     description:
-      "A centralized platform for managing, monitoring, and scaling API ecosystems with built-in governance and developer portals.",
-    features: ["API Gateway", "Real-time Monitoring", "Developer Portal", "Auto-scaling"],
-    tech: ["Infrastructure", "SaaS"],
+      "A powerful inventory and stock management platform for businesses to track, manage, and optimize inventory in real time across multiple locations.",
+    features: [
+      "Real-time Stock Tracking",
+      "Multi-Warehouse Support",
+      "Supplier & Purchase Management",
+      "Sales & Inventory Analytics",
+      "Low-Stock Alerts",
+    ],
+    tech: ["Enterprise", "SaaS", "Infrastructure"],
     status: "Coming Soon",
-    color: "from-orange-500 to-amber-400",
+    color: "from-orange-600 to-amber-500",
   },
 ]
 
@@ -70,7 +87,7 @@ export default function ProductsPage() {
             transition={{ delay: 0.2 }}
             className="max-w-2xl mx-auto text-lg text-muted-foreground"
           >
-            Snei Tech INC births multiple software products designed to solve real-world problems through cutting-edge
+            SneiTech births multiple software products designed to solve real-world problems through cutting-edge
             technology and intuitive design.
           </motion.p>
         </div>
@@ -88,31 +105,44 @@ export default function ProductsPage() {
             <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/5 blur-[120px] -z-10" />
 
             <div className="space-y-6">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 flex-wrap">
                 <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20 px-3 py-1">
                   FLAGSHIP PRODUCT
                 </Badge>
-                <div className="h-px flex-1 bg-border" />
+                <Badge
+                  variant="outline"
+                  className="bg-amber-500/10 text-amber-500 border-amber-500/20 px-3 py-1 animate-pulse"
+                >
+                  In Active Development
+                </Badge>
+                <div className="h-px flex-1 bg-border hidden sm:block" />
               </div>
               <h2 className="text-4xl md:text-5xl font-bold">XSporta</h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                The ultimate management ecosystem for the sports industry. XSporta combines high-performance analytics
-                with seamless operational control.
+                Xsporta is our flagship sports technology platform, currently under active development, designed to power the next generation of sports organizations.
+                It brings together intelligent analytics, real-time operations, and secure data management into a single, scalable ecosystem.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-4">
                 {[
-                  { icon: Cpu, text: "High-Performance Analytics" },
-                  { icon: Globe, text: "Global Athlete Database" },
-                  { icon: Zap, text: "Real-time Operations" },
-                  { icon: ShieldCheck, text: "Secure Data Integrity" },
+                  { icon: Cpu, text: "Advanced performance & match analytics" },
+                  { icon: Globe, text: "Centralized athlete & team management" },
+                  { icon: Zap, text: "Real-time fixtures, results, and operations" },
+                  { icon: ShieldCheck, text: "Secure, scalable data infrastructure" },
                 ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3 text-foreground/80">
-                    <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, x: -10 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.05 }}
+                    className="flex items-center gap-3 text-foreground/80"
+                  >
+                    <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <item.icon size={18} className="text-primary" />
                     </div>
                     <span className="font-medium">{item.text}</span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
 
@@ -133,7 +163,15 @@ export default function ProductsPage() {
                   rotate: [0, 2, 0],
                 }}
                 transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-                className="w-3/4 h-3/4 bg-card rounded-xl shadow-2xl border border-white/10 flex items-center justify-center p-8 text-center"
+                className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 group-hover:opacity-100 opacity-0 transition-opacity duration-500"
+              />
+              <motion.div
+                animate={{
+                  scale: [1, 1.05, 1],
+                  rotate: [0, 2, 0],
+                }}
+                transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+                className="w-3/4 h-3/4 bg-card rounded-xl shadow-2xl border border-white/10 flex items-center justify-center p-8 text-center relative z-10"
               >
                 <div className="space-y-4">
                   <div className="w-16 h-16 rounded-full bg-primary/10 mx-auto flex items-center justify-center">
@@ -157,7 +195,7 @@ export default function ProductsPage() {
             <div>
               <h2 className="text-3xl font-bold mb-4">Upcoming Innovation</h2>
               <p className="text-muted-foreground">
-                Preview of products currently in development at our innovation labs.
+                Strategic, scalable products currently in development at our innovation labs.
               </p>
             </div>
           </div>
@@ -170,10 +208,10 @@ export default function ProductsPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="group relative p-8 rounded-3xl bg-card border border-border hover:border-primary/50 transition-all duration-300 overflow-hidden"
+                className="group relative p-8 rounded-3xl bg-card border border-border hover:border-primary/50 transition-all duration-300 overflow-hidden hover:shadow-lg hover:shadow-primary/5"
               >
                 <div
-                  className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${product.color} opacity-0 group-hover:opacity-10 blur-3xl transition-opacity`}
+                  className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${product.color} opacity-0 group-hover:opacity-10 blur-3xl transition-opacity duration-300`}
                 />
 
                 <div className="flex justify-between items-start mb-6">
@@ -194,14 +232,21 @@ export default function ProductsPage() {
 
                 <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">{product.name}</h3>
                 <p className="text-primary/80 font-medium mb-4">{product.tagline}</p>
-                <p className="text-muted-foreground mb-8 line-clamp-2">{product.description}</p>
+                <p className="text-muted-foreground mb-8 leading-relaxed">{product.description}</p>
 
                 <div className="space-y-3 mb-8">
                   {product.features.map((feature, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary/40" />
+                    <motion.div
+                      key={i}
+                      initial={{ opacity: 0, x: -8 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: i * 0.05 }}
+                      className="flex items-center gap-2 text-sm"
+                    >
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary/40 group-hover:bg-primary/60 transition-colors" />
                       <span>{feature}</span>
-                    </div>
+                    </motion.div>
                   ))}
                 </div>
 
