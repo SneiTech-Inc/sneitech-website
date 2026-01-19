@@ -12,12 +12,13 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Snei Tech INC | Innovative Software Solutions & Product Hub",
+  title: "SneiTech Inc | Innovative Software Solutions & Product Hub",
   description:
-    "Snei Tech INC is a premium software development partner and innovation hub. We build scalable digital products like XSporta and provide high-end solutions for startups and enterprises worldwide.",
+    "SneiTech Inc is a premium software development partner and innovation hub. We build scalable digital products like XSporta and provide high-end solutions for startups and enterprises worldwide.",
   keywords: [
-    "Snei Tech INC",
+    "SneiTech Inc",
     "software development",
+    "Consulting",
     "XSporta",
     "web applications",
     "mobile apps",
@@ -27,20 +28,20 @@ export const metadata: Metadata = {
     "product innovation hub",
     "Michael Schneider",
   ],
-  authors: [{ name: "Snei Tech INC" }],
-  creator: "Snei Tech INC",
-  publisher: "Snei Tech INC",
+  authors: [{ name: "SneiTech Inc" }],
+  creator: "SneiTech Inc",
+  publisher: "SneiTech Inc",
   generator: "v0.app",
   openGraph: {
-    title: "Snei Tech INC | Innovative Software Solutions & Product Hub",
-    description: "Snei Tech INC is a premium software development partner and innovation hub.",
+    title: "SneiTech Inc | Innovative Software Solutions & Product Hub",
+    description: "SneiTech Inc is a premium software development partner and innovation hub.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Snei Tech INC | Innovative Software Solutions & Product Hub",
-    description: "Snei Tech INC is a premium software development partner and innovation hub.",
+    title: "SneiTech Inc | Innovative Software Solutions & Product Hub",
+    description: "SneiTech Inc is a premium software development partner and innovation hub.",
   },
   icons: {
     icon: [
