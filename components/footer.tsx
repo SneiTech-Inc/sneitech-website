@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Github, Twitter, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import Image from "next/image"
 
 const footerLinks = {
   company: [
@@ -29,11 +30,19 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">S</span>
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                <span className="text-primary-foreground font-bold text-xl">
+                  <Image
+                    src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1757561643/sneitechLogo_z3zgvx.png"
+                    alt="SneiTech Logo Icon"
+                    width={40}
+                    height={40}
+                    className="w-10 h-10"
+                  />
+                </span>
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground">
-                SNEITECH 
+                SNEITECH
                 {/* <span className="text-primary">INC</span> */}
               </span>
             </Link>
