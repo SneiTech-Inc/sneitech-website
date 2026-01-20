@@ -1,6 +1,6 @@
 "use client"
 
-const logos = ["GlobalTech", "Nexus", "Aura", "Prime", "Quantum", "Vertex", "Summit", "Flow"]
+const logos = ["Christ Dominion Temple", "Africa Techcity", "Trust Work", "Prime", "Quantum", "Vertex", "Summit", "Flow"]
 
 export function ClientLogos() {
   return (
