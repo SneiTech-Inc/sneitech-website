@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Twitter, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { Github, Twitter, Linkedin, Mail, MapPin, Phone, Facebook, Instagram } from "lucide-react"
 import Image from "next/image"
 
 const footerLinks = {
@@ -54,11 +54,14 @@ export function Footer() {
               <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter size={20} />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href="https://www.linkedin.com/company/sneitech/" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={20} />
               </Link>
+              <Link href="https://web.facebook.com/profile.php?id=61587279568299" className="text-muted-foreground hover:text-primary transition-colors">
+                <Facebook size={20} />
+              </Link>
               <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Github size={20} />
+                <Instagram size={20} />
               </Link>
             </div>
           </div>
