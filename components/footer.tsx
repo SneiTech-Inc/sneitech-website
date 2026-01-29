@@ -52,16 +52,16 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter size={20} />
+                <Twitter size={25} />
               </Link>
               <Link href="https://www.linkedin.com/company/sneitech/" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin size={20} />
+                <Linkedin size={25} />
               </Link>
               <Link href="https://web.facebook.com/profile.php?id=61587279568299" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook size={20} />
+                <Facebook size={25} />
               </Link>
               <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram size={20} />
+                <Instagram size={25} />
               </Link>
             </div>
           </div>

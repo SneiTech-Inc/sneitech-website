@@ -40,7 +40,7 @@ export function ScrollToTop() {
           <Button
             size="icon"
             onClick={scrollToTop}
-            className="rounded-full shadow-lg h-12 w-12 bg-primary hover:bg-primary/90 transition-all duration-300 group"
+            className="rounded-full cursor-pointer shadow-lg h-12 w-12 bg-primary hover:bg-primary/90 transition-all duration-300 group"
             aria-label="Scroll to top"
           >
             <ArrowUp className="group-hover:-translate-y-1 transition-transform duration-300" />

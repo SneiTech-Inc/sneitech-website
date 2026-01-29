@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -74,6 +75,7 @@ export default function RootLayout({
           <Navbar />
           <main className="min-h-screen pt-16">{children}</main>
           <Footer />
+          <WhatsAppButton />
           <ScrollToTop />
           <Analytics />
         </ThemeProvider>

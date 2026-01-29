@@ -11,6 +11,10 @@ import { Mail, Phone, MessageSquare, Send, CheckCircle2 } from "lucide-react"
 
 export default function ContactPage() {
   const [formStatus, setFormStatus] = React.useState<"idle" | "submitting" | "success">("idle")
+  
+  const whatsappNumber = "2330500770227"
+  const message = "Hello! I’m reaching out to learn more about SneiTech Inc’s services and how we can work together."
+  const encodedMessage = encodeURIComponent(message)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -89,7 +93,7 @@ export default function ContactPage() {
                     icon: MessageSquare,
                     label: "WhatsApp Us",
                     value: "Connect on WhatsApp",
-                    href: "https://wa.me/2330500770227",
+                    href: `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
                   },
                 ].map((item) => (
                   <a
