@@ -21,7 +21,7 @@ export default function TermsOfService() {
               <h2 className="text-2xl font-bold text-foreground">2. Intellectual Property</h2>
               <p className="text-muted-foreground leading-relaxed">
                 All content, trademarks, and intellectual property on this website and within our software products
-                (including XSporta) are the exclusive property of Snei Tech INC. You may not reproduce, distribute, or
+                (including Sporvex and SaveVex) are the exclusive property of Snei Tech INC. You may not reproduce, distribute, or
                 create derivative works without our explicit written permission.
               </p>
             </section>

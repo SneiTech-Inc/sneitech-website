@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
               <p className="text-muted-foreground leading-relaxed">
                 At Snei Tech INC, we value your privacy and are committed to protecting your personal data. This Privacy
                 Policy explains how we collect, use, and safeguard your information when you visit our website or use
-                our software products, including XSporta, TechGuard, and Nexus Flow.
+                our software products, including Sporvex, SaveVex, TechGuard, and Nexus Flow.
               </p>
             </section>
 

@@ -16,12 +16,13 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SneiTech Inc | Innovative Software Solutions & Product Hub",
   description:
-    "SneiTech Inc is a premium software development partner and innovation hub. We build scalable digital products like XSporta and provide high-end solutions for startups and enterprises worldwide.",
+    "SneiTech Inc is a premium software development partner and innovation hub. We build scalable digital products like Sporvex and SaveVex, and provide high-end solutions for startups and enterprises worldwide.",
   keywords: [
     "SneiTech Inc",
     "software development",
     "Consulting",
-    "XSporta",
+    "Sporvex",
+    "SaveVex",
     "web applications",
     "mobile apps",
     "custom software",
