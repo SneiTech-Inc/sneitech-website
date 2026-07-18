@@ -6,15 +6,15 @@ export default function PrivacyPolicy() {
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-8">Privacy Policy</h1>
-          <p className="text-muted-foreground mb-12">Last Updated: January 4, 2026</p>
+          <p className="text-muted-foreground mb-12">Last Updated: July 18, 2026</p>
 
           <div className="prose prose-invert max-w-none space-y-12">
             <section className="space-y-4">
               <h2 className="text-2xl font-bold text-foreground">1. Introduction</h2>
               <p className="text-muted-foreground leading-relaxed">
-                At Snei Tech INC, we value your privacy and are committed to protecting your personal data. This Privacy
+                At SneiTech Inc, we value your privacy and are committed to protecting your personal data. This Privacy
                 Policy explains how we collect, use, and safeguard your information when you visit our website or use
-                our software products, including Sporvex, SaveVex, TechGuard, and Nexus Flow.
+                our software products, including Sporvex, SaveVex, ChurchVex and SneiTech SMS.
               </p>
             </section>
 
@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-bold text-foreground">5. Contact Us</h2>
               <p className="text-muted-foreground leading-relaxed">
                 If you have any questions about this Privacy Policy, please contact our data protection team at
-                privacy@sneitech.com.
+                sneitechinc@gmail.com.
               </p>
             </section>
           </div>

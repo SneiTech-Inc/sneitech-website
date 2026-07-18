@@ -14,10 +14,10 @@ const testimonials = [
     avatar: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1622000412/samples/people/boy-snow-hoodie.jpg",
   },
   {
-    name: "Sarah Chen",
-    role: "Chief Innovation Officer, Nexus Systems",
+    name: "Rev. Williams Oduro",
+    role: "Senior Pastor, Christ Dominion Temple",
     content:
-      "Snei Tech INC transformed our legacy systems into a modern, scalable architecture that has significantly improved our efficiency and speed-to-market.",
+      "SneiTech delivered a world-class website that perfectly captures our ministry's heart and serves our growing community seamlessly.",
     avatar: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1622000412/samples/people/boy-snow-hoodie.jpg",
   },
   {
@@ -37,14 +37,14 @@ const testimonials = [
 ]
 
 const partners = [
-  "GlobalTech",
-  "Nexus Systems",
-  "Aura Digital",
-  "Prime Solutions",
-  "Quantum Labs",
-  "Vertex Corp",
-  "Summit Analytics",
-  "Flow Media",
+  "Sporvex",
+  "SaveVex",
+  "ChurchVex",
+  "SneiTech SMS",
+  "Christ Dominion Temple",
+  "SneiTech AI",
+  "SneiTech Labs",
+  "SneiTech Security",
   "Horizon Tech",
   "Star Innovate",
 ]
@@ -150,7 +150,7 @@ export default function ClientsPage() {
           <div className="text-center mb-16 relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">What Our Clients Say</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Success stories from global organizations that have scaled their digital ambitions with Snei Tech INC.
+              Success stories from global organizations that have scaled their digital ambitions with SneiTech Inc.
             </p>
           </div>
 

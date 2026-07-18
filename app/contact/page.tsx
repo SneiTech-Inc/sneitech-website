@@ -80,8 +80,8 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     label: "Email Us",
-                    value: "schneiderm312@gmail.com",
-                    href: "mailto:schneiderm312@gmail.com",
+                    value: "sneitechinc@gmail.com",
+                    href: "mailto:sneitechinc@gmail.com",
                   },
                   {
                     icon: Phone,

@@ -1,14 +1,10 @@
 "use client"
 
 const logos = [
+  { name: "Sporvex", src: "/assets/images/sporvex-icon.png" },
+  { name: "SaveVex", src: "/assets/images/savevex-icon.png" },
   { name: "CDT", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769124828/WhatsApp_Image_2026-01-08_at_09.08.51_chemwi.jpg" },
   { name: "Africa Techcity", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769123251/logo-3_w2eibb.jpg" },
-  { name: "Trust Work", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769123619/logo_odt9xa.png" },
-  { name: "Prime Solutions", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769124493/aura-digital-logo_m9svpy.jpg" },
-  { name: "Quantum Labs", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769124492/quantum-labs-logo_hr865k.jpg" },
-  { name: "Vertex Corp", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769124492/vertex-corp-logo_rdeke2.jpg" },
-  { name: "Summit Analytics", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769124492/summit-analytics-logo_ob50q9.jpg" },
-  { name: "Flow Media", src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769124492/flow-media-logo_jjt59g.jpg" },
 ]
 
 export function ClientLogos() {

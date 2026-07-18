@@ -51,16 +51,16 @@ export function Footer() {
               solutions for global enterprises.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href="https://twitter.com/sneitech" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter size={25} />
               </Link>
-              <Link href="https://www.linkedin.com/company/sneitech/" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href="https://www.linkedin.com/company/sneitech/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={25} />
               </Link>
-              <Link href="https://web.facebook.com/profile.php?id=61587279568299" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href="https://web.facebook.com/sneitech" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook size={25} />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href="https://www.instagram.com/sneitechinc" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram size={25} />
               </Link>
             </div>
@@ -107,7 +107,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Mail size={18} className="text-primary shrink-0" />
-                <span>contact@sneitech.com</span>
+                <span>sneitechinc@gmail.com</span>
               </li>
             </ul>
           </div>
