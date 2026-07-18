@@ -20,7 +20,7 @@ const liveProducts = [
     ],
     tech: ["Web", "Mobile", "Real-Time"],
     logo: "/assets/images/products/sporvex-logo.png",
-    mockup: "/assets/images/products/sporvex-mockup.svg",
+    mockup: "/assets/images/products/sporvex-mock.webp",
     externalUrl: "https://sporvex.com",
     caseStudyUrl: "/case-studies/sporvex",
     color: "from-blue-600 to-cyan-500",
@@ -38,7 +38,7 @@ const liveProducts = [
     ],
     tech: ["Web", "Tools", "Free"],
     logo: "/assets/images/products/savevex-logo.png",
-    mockup: "/assets/images/products/savevex-mockup.svg",
+    mockup: "/assets/images/products/savevex-mock.png",
     externalUrl: "https://savevex.com",
     caseStudyUrl: "/case-studies/savevex",
     color: "from-emerald-600 to-teal-500",
@@ -216,11 +216,11 @@ export default function ProductsPage() {
                 </div>
 
                 {/* Mockup image */}
-                <div className="relative mb-8 rounded-xl overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5 border border-border/50">
+                <div className="relative mb-6 rounded-xl overflow-hidden bg-card/80 border border-border/50 aspect-video">
                   <img
                     src={product.mockup}
-                    alt={`${product.name} application interface mockup`}
-                    className="w-full h-auto object-cover"
+                    alt={`${product.name} promotional hero image`}
+                    className="w-full h-full object-contain p-2"
                   />
                 </div>
 
